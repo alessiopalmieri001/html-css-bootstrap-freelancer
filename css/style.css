@@ -1,3 +1,23 @@
+:root{
+    --bs-success-rgb: 26,188,156;
+}
+
+
+
+
 .bgc-header{
     background-color: #2C3E50;
+}
+.my-first-img{
+    max-width: 300px;
+}
+.container-star::before,
+.container-star::after{
+    content: "";
+    width: 15%;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 1.5px;
 }
