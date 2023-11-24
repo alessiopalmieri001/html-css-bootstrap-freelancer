@@ -21,3 +21,8 @@
     vertical-align: middle;
     border-radius: 1.5px;
 }
+
+.container-star.dark-bars::before,
+.container-star.dark-bars::after{
+    background-color: black;
+}
